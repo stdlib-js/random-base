@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Standard library base pseudorandom number generators.",
   "license": "Apache-2.0",
   "author": {
