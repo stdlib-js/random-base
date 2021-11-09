@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/random-base",
   "version": "0.0.5",
-  "description": "Standard library base pseudorandom number generators.",
+  "description": "Base pseudorandom number generators.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -126,6 +126,7 @@
     "@stdlib/math-base-assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/math-base-assert-is-positive-integer": "^0.0.x",
     "@stdlib/math-base-assert-is-probability": "^0.0.x",
+    "@stdlib/math-base-ops-umul": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
     "@stdlib/math-base-special-ceil": "^0.0.x",
     "@stdlib/math-base-special-cos": "^0.0.x",
@@ -141,7 +142,6 @@
     "@stdlib/math-base-special-sin": "^0.0.x",
     "@stdlib/math-base-special-sqrt": "^0.0.x",
     "@stdlib/math-base-special-tan": "^0.0.x",
-    "@stdlib/math-base-special-uimul": "^0.0.x",
     "@stdlib/process-env": "^0.0.x",
     "@stdlib/stats-base-dists-cosine-quantile": "^0.0.x",
     "@stdlib/stats-base-dists-normal-quantile": "^0.0.x",
