@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Base pseudorandom number generators.",
   "license": "Apache-2.0",
   "author": {
@@ -147,6 +147,7 @@
     "@stdlib/stats-base-dists-normal-quantile": "^0.0.x",
     "@stdlib/stats-chi2gof": "^0.0.x",
     "@stdlib/stats-kstest": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/time-now": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
