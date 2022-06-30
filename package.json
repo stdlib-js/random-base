@@ -147,7 +147,7 @@
     "@stdlib/stats-base-dists-normal-quantile": "^0.0.x",
     "@stdlib/stats-chi2gof": "^0.0.x",
     "@stdlib/stats-kstest": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/time-now": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
