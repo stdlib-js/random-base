@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@deno/mod.js';
+import random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, reviveBasePRNG, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@deno/mod.js';
+import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, reviveBasePRNG, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@v0.1.0-deno/mod.js';
 ```
 
 #### random
@@ -178,7 +178,7 @@ r = rand();
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@deno/mod.js';
+import random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( random ) );
 ```
