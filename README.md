@@ -35,30 +35,38 @@ limitations under the License.
 
 > Base (i.e., lower-level) pseudorandom number generators (PRNGs).
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-base
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var random = require( '@stdlib/random-base' );
+random = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var random = require( 'path/to/vendor/umd/random-base/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.random;
+})();
+</script>
 ```
 
 #### random
@@ -186,11 +194,21 @@ r = rand();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var random = require( '@stdlib/random-base' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( random ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -276,89 +294,89 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/base/arcsine]: https://github.com/stdlib-js/random-base-arcsine
+[@stdlib/random/base/arcsine]: https://github.com/stdlib-js/random-base-arcsine/tree/umd
 
-[@stdlib/random/base/bernoulli]: https://github.com/stdlib-js/random-base-bernoulli
+[@stdlib/random/base/bernoulli]: https://github.com/stdlib-js/random-base-bernoulli/tree/umd
 
-[@stdlib/random/base/beta]: https://github.com/stdlib-js/random-base-beta
+[@stdlib/random/base/beta]: https://github.com/stdlib-js/random-base-beta/tree/umd
 
-[@stdlib/random/base/betaprime]: https://github.com/stdlib-js/random-base-betaprime
+[@stdlib/random/base/betaprime]: https://github.com/stdlib-js/random-base-betaprime/tree/umd
 
-[@stdlib/random/base/binomial]: https://github.com/stdlib-js/random-base-binomial
+[@stdlib/random/base/binomial]: https://github.com/stdlib-js/random-base-binomial/tree/umd
 
-[@stdlib/random/base/box-muller]: https://github.com/stdlib-js/random-base-box-muller
+[@stdlib/random/base/box-muller]: https://github.com/stdlib-js/random-base-box-muller/tree/umd
 
-[@stdlib/random/base/cauchy]: https://github.com/stdlib-js/random-base-cauchy
+[@stdlib/random/base/cauchy]: https://github.com/stdlib-js/random-base-cauchy/tree/umd
 
-[@stdlib/random/base/chi]: https://github.com/stdlib-js/random-base-chi
+[@stdlib/random/base/chi]: https://github.com/stdlib-js/random-base-chi/tree/umd
 
-[@stdlib/random/base/chisquare]: https://github.com/stdlib-js/random-base-chisquare
+[@stdlib/random/base/chisquare]: https://github.com/stdlib-js/random-base-chisquare/tree/umd
 
-[@stdlib/random/base/cosine]: https://github.com/stdlib-js/random-base-cosine
+[@stdlib/random/base/cosine]: https://github.com/stdlib-js/random-base-cosine/tree/umd
 
-[@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform
+[@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform/tree/umd
 
-[@stdlib/random/base/erlang]: https://github.com/stdlib-js/random-base-erlang
+[@stdlib/random/base/erlang]: https://github.com/stdlib-js/random-base-erlang/tree/umd
 
-[@stdlib/random/base/exponential]: https://github.com/stdlib-js/random-base-exponential
+[@stdlib/random/base/exponential]: https://github.com/stdlib-js/random-base-exponential/tree/umd
 
-[@stdlib/random/base/f]: https://github.com/stdlib-js/random-base-f
+[@stdlib/random/base/f]: https://github.com/stdlib-js/random-base-f/tree/umd
 
-[@stdlib/random/base/frechet]: https://github.com/stdlib-js/random-base-frechet
+[@stdlib/random/base/frechet]: https://github.com/stdlib-js/random-base-frechet/tree/umd
 
-[@stdlib/random/base/gamma]: https://github.com/stdlib-js/random-base-gamma
+[@stdlib/random/base/gamma]: https://github.com/stdlib-js/random-base-gamma/tree/umd
 
-[@stdlib/random/base/geometric]: https://github.com/stdlib-js/random-base-geometric
+[@stdlib/random/base/geometric]: https://github.com/stdlib-js/random-base-geometric/tree/umd
 
-[@stdlib/random/base/gumbel]: https://github.com/stdlib-js/random-base-gumbel
+[@stdlib/random/base/gumbel]: https://github.com/stdlib-js/random-base-gumbel/tree/umd
 
-[@stdlib/random/base/hypergeometric]: https://github.com/stdlib-js/random-base-hypergeometric
+[@stdlib/random/base/hypergeometric]: https://github.com/stdlib-js/random-base-hypergeometric/tree/umd
 
-[@stdlib/random/base/improved-ziggurat]: https://github.com/stdlib-js/random-base-improved-ziggurat
+[@stdlib/random/base/improved-ziggurat]: https://github.com/stdlib-js/random-base-improved-ziggurat/tree/umd
 
-[@stdlib/random/base/invgamma]: https://github.com/stdlib-js/random-base-invgamma
+[@stdlib/random/base/invgamma]: https://github.com/stdlib-js/random-base-invgamma/tree/umd
 
-[@stdlib/random/base/kumaraswamy]: https://github.com/stdlib-js/random-base-kumaraswamy
+[@stdlib/random/base/kumaraswamy]: https://github.com/stdlib-js/random-base-kumaraswamy/tree/umd
 
-[@stdlib/random/base/laplace]: https://github.com/stdlib-js/random-base-laplace
+[@stdlib/random/base/laplace]: https://github.com/stdlib-js/random-base-laplace/tree/umd
 
-[@stdlib/random/base/levy]: https://github.com/stdlib-js/random-base-levy
+[@stdlib/random/base/levy]: https://github.com/stdlib-js/random-base-levy/tree/umd
 
-[@stdlib/random/base/logistic]: https://github.com/stdlib-js/random-base-logistic
+[@stdlib/random/base/logistic]: https://github.com/stdlib-js/random-base-logistic/tree/umd
 
-[@stdlib/random/base/lognormal]: https://github.com/stdlib-js/random-base-lognormal
+[@stdlib/random/base/lognormal]: https://github.com/stdlib-js/random-base-lognormal/tree/umd
 
-[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle
+[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle/tree/umd
 
-[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd/tree/umd
 
-[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937
+[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937/tree/umd
 
-[@stdlib/random/base/negative-binomial]: https://github.com/stdlib-js/random-base-negative-binomial
+[@stdlib/random/base/negative-binomial]: https://github.com/stdlib-js/random-base-negative-binomial/tree/umd
 
-[@stdlib/random/base/normal]: https://github.com/stdlib-js/random-base-normal
+[@stdlib/random/base/normal]: https://github.com/stdlib-js/random-base-normal/tree/umd
 
-[@stdlib/random/base/pareto-type1]: https://github.com/stdlib-js/random-base-pareto-type1
+[@stdlib/random/base/pareto-type1]: https://github.com/stdlib-js/random-base-pareto-type1/tree/umd
 
-[@stdlib/random/base/poisson]: https://github.com/stdlib-js/random-base-poisson
+[@stdlib/random/base/poisson]: https://github.com/stdlib-js/random-base-poisson/tree/umd
 
-[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi
+[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi/tree/umd
 
-[@stdlib/random/base/randn]: https://github.com/stdlib-js/random-base-randn
+[@stdlib/random/base/randn]: https://github.com/stdlib-js/random-base-randn/tree/umd
 
-[@stdlib/random/base/randu]: https://github.com/stdlib-js/random-base-randu
+[@stdlib/random/base/randu]: https://github.com/stdlib-js/random-base-randu/tree/umd
 
-[@stdlib/random/base/rayleigh]: https://github.com/stdlib-js/random-base-rayleigh
+[@stdlib/random/base/rayleigh]: https://github.com/stdlib-js/random-base-rayleigh/tree/umd
 
-[@stdlib/random/base/reviver]: https://github.com/stdlib-js/random-base-reviver
+[@stdlib/random/base/reviver]: https://github.com/stdlib-js/random-base-reviver/tree/umd
 
-[@stdlib/random/base/t]: https://github.com/stdlib-js/random-base-t
+[@stdlib/random/base/t]: https://github.com/stdlib-js/random-base-t/tree/umd
 
-[@stdlib/random/base/triangular]: https://github.com/stdlib-js/random-base-triangular
+[@stdlib/random/base/triangular]: https://github.com/stdlib-js/random-base-triangular/tree/umd
 
-[@stdlib/random/base/uniform]: https://github.com/stdlib-js/random-base-uniform
+[@stdlib/random/base/uniform]: https://github.com/stdlib-js/random-base-uniform/tree/umd
 
-[@stdlib/random/base/weibull]: https://github.com/stdlib-js/random-base-weibull
+[@stdlib/random/base/weibull]: https://github.com/stdlib-js/random-base-weibull/tree/umd
 
 <!-- </toc-links> -->
 
