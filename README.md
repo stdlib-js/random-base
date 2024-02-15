@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) pseudorandom number generators (PRNGs).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, boxMuller, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, improvedZiggurat, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randi, randn, randu, rayleigh, reviveBasePRNG, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@deno/mod.js';
+var random = require( '@stdlib/random-base' );
 ```
 
 #### random
@@ -177,8 +189,8 @@ r = rand();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import random from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var random = require( '@stdlib/random-base' );
 
 console.log( objectKeys( random ) );
 ```
@@ -204,7 +216,7 @@ console.log( objectKeys( random ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -234,8 +246,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-base
 
-[test-image]: https://github.com/stdlib-js/random-base/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/random-base/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/random-base/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/random-base/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-base?branch=main
@@ -258,97 +270,100 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/random-base/tree/deno
+[deno-readme]: https://github.com/stdlib-js/random-base/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/random-base/tree/umd
+[umd-readme]: https://github.com/stdlib-js/random-base/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/random-base/tree/esm
+[esm-readme]: https://github.com/stdlib-js/random-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/random-base/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-base/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/random/base/arcsine]: https://github.com/stdlib-js/random-base-arcsine/tree/deno
+[@stdlib/random/base/arcsine]: https://github.com/stdlib-js/random-base-arcsine
 
-[@stdlib/random/base/bernoulli]: https://github.com/stdlib-js/random-base-bernoulli/tree/deno
+[@stdlib/random/base/bernoulli]: https://github.com/stdlib-js/random-base-bernoulli
 
-[@stdlib/random/base/beta]: https://github.com/stdlib-js/random-base-beta/tree/deno
+[@stdlib/random/base/beta]: https://github.com/stdlib-js/random-base-beta
 
-[@stdlib/random/base/betaprime]: https://github.com/stdlib-js/random-base-betaprime/tree/deno
+[@stdlib/random/base/betaprime]: https://github.com/stdlib-js/random-base-betaprime
 
-[@stdlib/random/base/binomial]: https://github.com/stdlib-js/random-base-binomial/tree/deno
+[@stdlib/random/base/binomial]: https://github.com/stdlib-js/random-base-binomial
 
-[@stdlib/random/base/box-muller]: https://github.com/stdlib-js/random-base-box-muller/tree/deno
+[@stdlib/random/base/box-muller]: https://github.com/stdlib-js/random-base-box-muller
 
-[@stdlib/random/base/cauchy]: https://github.com/stdlib-js/random-base-cauchy/tree/deno
+[@stdlib/random/base/cauchy]: https://github.com/stdlib-js/random-base-cauchy
 
-[@stdlib/random/base/chi]: https://github.com/stdlib-js/random-base-chi/tree/deno
+[@stdlib/random/base/chi]: https://github.com/stdlib-js/random-base-chi
 
-[@stdlib/random/base/chisquare]: https://github.com/stdlib-js/random-base-chisquare/tree/deno
+[@stdlib/random/base/chisquare]: https://github.com/stdlib-js/random-base-chisquare
 
-[@stdlib/random/base/cosine]: https://github.com/stdlib-js/random-base-cosine/tree/deno
+[@stdlib/random/base/cosine]: https://github.com/stdlib-js/random-base-cosine
 
-[@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform/tree/deno
+[@stdlib/random/base/discrete-uniform]: https://github.com/stdlib-js/random-base-discrete-uniform
 
-[@stdlib/random/base/erlang]: https://github.com/stdlib-js/random-base-erlang/tree/deno
+[@stdlib/random/base/erlang]: https://github.com/stdlib-js/random-base-erlang
 
-[@stdlib/random/base/exponential]: https://github.com/stdlib-js/random-base-exponential/tree/deno
+[@stdlib/random/base/exponential]: https://github.com/stdlib-js/random-base-exponential
 
-[@stdlib/random/base/f]: https://github.com/stdlib-js/random-base-f/tree/deno
+[@stdlib/random/base/f]: https://github.com/stdlib-js/random-base-f
 
-[@stdlib/random/base/frechet]: https://github.com/stdlib-js/random-base-frechet/tree/deno
+[@stdlib/random/base/frechet]: https://github.com/stdlib-js/random-base-frechet
 
-[@stdlib/random/base/gamma]: https://github.com/stdlib-js/random-base-gamma/tree/deno
+[@stdlib/random/base/gamma]: https://github.com/stdlib-js/random-base-gamma
 
-[@stdlib/random/base/geometric]: https://github.com/stdlib-js/random-base-geometric/tree/deno
+[@stdlib/random/base/geometric]: https://github.com/stdlib-js/random-base-geometric
 
-[@stdlib/random/base/gumbel]: https://github.com/stdlib-js/random-base-gumbel/tree/deno
+[@stdlib/random/base/gumbel]: https://github.com/stdlib-js/random-base-gumbel
 
-[@stdlib/random/base/hypergeometric]: https://github.com/stdlib-js/random-base-hypergeometric/tree/deno
+[@stdlib/random/base/hypergeometric]: https://github.com/stdlib-js/random-base-hypergeometric
 
-[@stdlib/random/base/improved-ziggurat]: https://github.com/stdlib-js/random-base-improved-ziggurat/tree/deno
+[@stdlib/random/base/improved-ziggurat]: https://github.com/stdlib-js/random-base-improved-ziggurat
 
-[@stdlib/random/base/invgamma]: https://github.com/stdlib-js/random-base-invgamma/tree/deno
+[@stdlib/random/base/invgamma]: https://github.com/stdlib-js/random-base-invgamma
 
-[@stdlib/random/base/kumaraswamy]: https://github.com/stdlib-js/random-base-kumaraswamy/tree/deno
+[@stdlib/random/base/kumaraswamy]: https://github.com/stdlib-js/random-base-kumaraswamy
 
-[@stdlib/random/base/laplace]: https://github.com/stdlib-js/random-base-laplace/tree/deno
+[@stdlib/random/base/laplace]: https://github.com/stdlib-js/random-base-laplace
 
-[@stdlib/random/base/levy]: https://github.com/stdlib-js/random-base-levy/tree/deno
+[@stdlib/random/base/levy]: https://github.com/stdlib-js/random-base-levy
 
-[@stdlib/random/base/logistic]: https://github.com/stdlib-js/random-base-logistic/tree/deno
+[@stdlib/random/base/logistic]: https://github.com/stdlib-js/random-base-logistic
 
-[@stdlib/random/base/lognormal]: https://github.com/stdlib-js/random-base-lognormal/tree/deno
+[@stdlib/random/base/lognormal]: https://github.com/stdlib-js/random-base-lognormal
 
-[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle/tree/deno
+[@stdlib/random/base/minstd-shuffle]: https://github.com/stdlib-js/random-base-minstd-shuffle
 
-[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd/tree/deno
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
 
-[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937/tree/deno
+[@stdlib/random/base/mt19937]: https://github.com/stdlib-js/random-base-mt19937
 
-[@stdlib/random/base/negative-binomial]: https://github.com/stdlib-js/random-base-negative-binomial/tree/deno
+[@stdlib/random/base/negative-binomial]: https://github.com/stdlib-js/random-base-negative-binomial
 
-[@stdlib/random/base/normal]: https://github.com/stdlib-js/random-base-normal/tree/deno
+[@stdlib/random/base/normal]: https://github.com/stdlib-js/random-base-normal
 
-[@stdlib/random/base/pareto-type1]: https://github.com/stdlib-js/random-base-pareto-type1/tree/deno
+[@stdlib/random/base/pareto-type1]: https://github.com/stdlib-js/random-base-pareto-type1
 
-[@stdlib/random/base/poisson]: https://github.com/stdlib-js/random-base-poisson/tree/deno
+[@stdlib/random/base/poisson]: https://github.com/stdlib-js/random-base-poisson
 
-[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi/tree/deno
+[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi
 
-[@stdlib/random/base/randn]: https://github.com/stdlib-js/random-base-randn/tree/deno
+[@stdlib/random/base/randn]: https://github.com/stdlib-js/random-base-randn
 
-[@stdlib/random/base/randu]: https://github.com/stdlib-js/random-base-randu/tree/deno
+[@stdlib/random/base/randu]: https://github.com/stdlib-js/random-base-randu
 
-[@stdlib/random/base/rayleigh]: https://github.com/stdlib-js/random-base-rayleigh/tree/deno
+[@stdlib/random/base/rayleigh]: https://github.com/stdlib-js/random-base-rayleigh
 
-[@stdlib/random/base/reviver]: https://github.com/stdlib-js/random-base-reviver/tree/deno
+[@stdlib/random/base/reviver]: https://github.com/stdlib-js/random-base-reviver
 
-[@stdlib/random/base/t]: https://github.com/stdlib-js/random-base-t/tree/deno
+[@stdlib/random/base/t]: https://github.com/stdlib-js/random-base-t
 
-[@stdlib/random/base/triangular]: https://github.com/stdlib-js/random-base-triangular/tree/deno
+[@stdlib/random/base/triangular]: https://github.com/stdlib-js/random-base-triangular
 
-[@stdlib/random/base/uniform]: https://github.com/stdlib-js/random-base-uniform/tree/deno
+[@stdlib/random/base/uniform]: https://github.com/stdlib-js/random-base-uniform
 
-[@stdlib/random/base/weibull]: https://github.com/stdlib-js/random-base-weibull/tree/deno
+[@stdlib/random/base/weibull]: https://github.com/stdlib-js/random-base-weibull
 
 <!-- </toc-links> -->
 
