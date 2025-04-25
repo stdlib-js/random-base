@@ -81,10 +81,11 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/array-int32": "^0.2.2",
     "@stdlib/array-to-json": "^0.3.0",
     "@stdlib/array-uint32": "^0.2.2",
-    "@stdlib/assert-contains": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-array-like-object": "^0.2.2",
@@ -122,7 +123,6 @@
     "@stdlib/math-base-assert-is-nonnegative-integer": "^0.2.1",
     "@stdlib/math-base-assert-is-positive-integer": "^0.3.0",
     "@stdlib/math-base-assert-is-probability": "^0.2.3",
-    "@stdlib/math-base-ops-umul": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-ceil": "^0.2.2",
     "@stdlib/math-base-special-cos": "^0.3.0",
@@ -138,6 +138,7 @@
     "@stdlib/math-base-special-sin": "^0.3.0",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/math-base-special-tan": "^0.3.0",
+    "@stdlib/number-uint32-base-mul": "github:stdlib-js/number-uint32-base-mul#main",
     "@stdlib/object-assign": "^0.2.2",
     "@stdlib/process-env": "^0.2.2",
     "@stdlib/stats-base-dists-cosine-quantile": "^0.2.2",

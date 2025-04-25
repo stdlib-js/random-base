@@ -4,44 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-29)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-base-minstd-shuffle-unreleased">
-
-#### [@stdlib/random/base/minstd-shuffle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/minstd-shuffle)
-
-<details>
+## Unreleased (2025-04-25)
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
+-   [`b082d29`](https://github.com/stdlib-js/stdlib/commit/b082d299748392a05be50b43351af6ac0cb7d418) - update include paths and reorder includes
+-   [`40b01fb`](https://github.com/stdlib-js/stdlib/commit/40b01fbc906831c1948d5287aa2b1fb176df0105) - update include paths and refactor branching logic
+-   [`5939fb1`](https://github.com/stdlib-js/stdlib/commit/5939fb1afbdb5288ef65f449e448c77fe56c6dfd) - update include paths and refactor branching logic
+-   [`e1296c1`](https://github.com/stdlib-js/stdlib/commit/e1296c1c5634fbcf5e007695391c944fef27e6aa) - update include paths and reorder includes
+-   [`7ef177c`](https://github.com/stdlib-js/stdlib/commit/7ef177c87922d543ab59c426c453996a9e51397d) - update include paths and reorder includes
+-   [`51ab6ca`](https://github.com/stdlib-js/stdlib/commit/51ab6cac709c2c8a117eac6894b0594ef9184323) - update include paths and reorder includes
 -   [`ff528da`](https://github.com/stdlib-js/stdlib/commit/ff528da57f135041fb78f550a9e35cf0cd904b1a) - address lint error
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-mt19937-unreleased">
-
-#### [@stdlib/random/base/mt19937](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/mt19937)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
 -   [`09483ae`](https://github.com/stdlib-js/stdlib/commit/09483ae5cf6ed8edfce7d64d36a31339bc3e6e06) - update documentation to reflect correct seed range
 
 </section>
@@ -50,50 +25,15 @@
 
 <section class="issues">
 
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1963](https://github.com/stdlib-js/stdlib/issues/1963)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="issues">
-
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#1963](https://github.com/stdlib-js/stdlib/issues/1963)
+[#1963](https://github.com/stdlib-js/stdlib/issues/1963), [#6236](https://github.com/stdlib-js/stdlib/issues/6236)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -101,6 +41,32 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`366925e`](https://github.com/stdlib-js/stdlib/commit/366925e14f08852288d1422041d5613c1aaddb28) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`56e6ec9`](https://github.com/stdlib-js/stdlib/commit/56e6ec9161a910d07dbc2af07164590c601f3351) - **docs:** fix parameter descriptions _(by Athan Reines)_
+-   [`a464a60`](https://github.com/stdlib-js/stdlib/commit/a464a60568b819f813aff054ba0c32476192d269) - **chore:** fix EditorConfig lint errors [(#6246)](https://github.com/stdlib-js/stdlib/pull/6246) _(by MANI, Athan Reines)_
+-   [`8805742`](https://github.com/stdlib-js/stdlib/commit/8805742fbac8884ef6727b4a177f1a0cc940bdce) - **chore:** resolve lint errors in `random/base/minstd` [(#6498)](https://github.com/stdlib-js/stdlib/pull/6498) _(by Abdul Kaium, Athan Reines)_
+-   [`03ee1fb`](https://github.com/stdlib-js/stdlib/commit/03ee1fba12581e0c4bdf79514ae8477d64ffe2fe) - **docs:** fix description _(by Athan Reines)_
+-   [`5fc6df0`](https://github.com/stdlib-js/stdlib/commit/5fc6df084a95993c26151ceadb663bcd5dce4d29) - **docs:** fix description _(by Athan Reines)_
+-   [`a6dc859`](https://github.com/stdlib-js/stdlib/commit/a6dc8598c42abb4bbd5bbcf25cfc478d777c9a28) - **refactor:** use array base assertion utility _(by Athan Reines)_
+-   [`d9c2e28`](https://github.com/stdlib-js/stdlib/commit/d9c2e28c3c0298363e4e846e69d32c49252a14a7) - **docs:** update examples _(by Athan Reines)_
+-   [`05cdb8f`](https://github.com/stdlib-js/stdlib/commit/05cdb8f1e70b25fdd7fdaa822d8180fbf9588083) - **docs:** update examples _(by Athan Reines)_
+-   [`d2fa5d2`](https://github.com/stdlib-js/stdlib/commit/d2fa5d260975d98ecea0fb9ccd2e8a24756a1f96) - **docs:** update example _(by Athan Reines)_
+-   [`3eb6fa4`](https://github.com/stdlib-js/stdlib/commit/3eb6fa42360272e0e664c714766443ed90cb41b6) - **docs:** update examples _(by Athan Reines)_
+-   [`5260d13`](https://github.com/stdlib-js/stdlib/commit/5260d1347c8cd3f669d47dabe8cc6f954809bb27) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8c7dff3`](https://github.com/stdlib-js/stdlib/commit/8c7dff311a96451ecf52d7a08e17fd03bdf4a300) - **refactor:** move variable declaration _(by Athan Reines)_
+-   [`b082d29`](https://github.com/stdlib-js/stdlib/commit/b082d299748392a05be50b43351af6ac0cb7d418) - **fix:** update include paths and reorder includes _(by Athan Reines)_
+-   [`3c8a4d5`](https://github.com/stdlib-js/stdlib/commit/3c8a4d5c5d97979206090197ca00f39de3d19f06) - **docs:** update note _(by Athan Reines)_
+-   [`ee0c409`](https://github.com/stdlib-js/stdlib/commit/ee0c4092ad6995e68d53c384e6ef75d87bf36ac8) - **docs:** update note _(by Athan Reines)_
+-   [`40b01fb`](https://github.com/stdlib-js/stdlib/commit/40b01fbc906831c1948d5287aa2b1fb176df0105) - **fix:** update include paths and refactor branching logic _(by Athan Reines)_
+-   [`5939fb1`](https://github.com/stdlib-js/stdlib/commit/5939fb1afbdb5288ef65f449e448c77fe56c6dfd) - **fix:** update include paths and refactor branching logic _(by Athan Reines)_
+-   [`5be9674`](https://github.com/stdlib-js/stdlib/commit/5be9674b6af6402f9c9f4833e31070574a716144) - **style:** update include order _(by Athan Reines)_
+-   [`e1296c1`](https://github.com/stdlib-js/stdlib/commit/e1296c1c5634fbcf5e007695391c944fef27e6aa) - **fix:** update include paths and reorder includes _(by Athan Reines)_
+-   [`1467fde`](https://github.com/stdlib-js/stdlib/commit/1467fde6e4523af5030c87ee50b9c0c9ea050668) - **docs:** fix include paths in examples _(by Athan Reines)_
+-   [`faa4da3`](https://github.com/stdlib-js/stdlib/commit/faa4da3f2c52be1b422d3b08c7ee6b659d848556) - **docs:** fix include paths in examples _(by Athan Reines)_
+-   [`7ef177c`](https://github.com/stdlib-js/stdlib/commit/7ef177c87922d543ab59c426c453996a9e51397d) - **fix:** update include paths and reorder includes _(by Athan Reines)_
+-   [`51ab6ca`](https://github.com/stdlib-js/stdlib/commit/51ab6cac709c2c8a117eac6894b0594ef9184323) - **fix:** update include paths and reorder includes _(by Athan Reines)_
+-   [`8a15baa`](https://github.com/stdlib-js/stdlib/commit/8a15baa639e8c4f45479821cf7331715e0546e86) - **docs:** update related packages sections [(#4425)](https://github.com/stdlib-js/stdlib/pull/4425) _(by stdlib-bot)_
+-   [`d88905f`](https://github.com/stdlib-js/stdlib/commit/d88905fbd9006bf223db7ce4959b46f02cf7d73e) - **docs:** fix parameter descriptions in Weibull distribution packages _(by Philipp Burckhardt)_
 -   [`b87254d`](https://github.com/stdlib-js/stdlib/commit/b87254d4535a3b90bf3d0068750ed6e9ca5dbc85) - **docs:** fix parameter descriptions in Weibull distribution packages _(by Philipp Burckhardt)_
 -   [`90e96d0`](https://github.com/stdlib-js/stdlib/commit/90e96d01b7a32ec3b71caf3e5f57528338199a8f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8553770`](https://github.com/stdlib-js/stdlib/commit/85537708442675d6bc1bf5dad5aaf252cecb82ac) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -122,6 +88,22 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 5 people contributed to this release. Thank you to the following contributors:
+
+-   Abdul Kaium
+-   Athan Reines
+-   Gururaj Gurram
+-   MANI
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -130,60 +112,15 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.2.1 (2024-02-25)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-base-v0.2.1">
-
-#### [@stdlib/random/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base)
-
-<details>
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`31aff93`](https://github.com/stdlib-js/stdlib/commit/31aff930532b53e34d2c7386684375a079fcf6bb): deprecate C APIs in favor of `random/base/shared`
-
-    -   To migrate, users should explicitly depend on `@stdlib/random-base/shared`
-        and update their include paths accordingly.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-shared-v0.2.1">
-
-#### [@stdlib/random/base/shared](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/shared)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`03d7a3a`](https://github.com/stdlib-js/stdlib/commit/03d7a3a5a3a4e591299993d9fb9ee2d2dafe4263) - add `random/base/shared`
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -197,18 +134,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -235,6 +160,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -243,92 +180,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.0 (2024-02-15)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-base-frechet-v0.2.0">
-
-#### [@stdlib/random/base/frechet](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/frechet)
-
-<details>
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`80199f6`](https://github.com/stdlib-js/stdlib/commit/80199f66ace06d749d9c736189cb6825ddfbaa56) - update variable name to reflect arity
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-hypergeometric-v0.2.0">
-
-#### [@stdlib/random/base/hypergeometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/hypergeometric)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`80199f6`](https://github.com/stdlib-js/stdlib/commit/80199f66ace06d749d9c736189cb6825ddfbaa56) - update variable name to reflect arity
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-triangular-v0.2.0">
-
-#### [@stdlib/random/base/triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/triangular)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`80199f6`](https://github.com/stdlib-js/stdlib/commit/80199f66ace06d749d9c736189cb6825ddfbaa56) - update variable name to reflect arity
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -363,6 +223,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -370,26 +243,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2023-12-20)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -407,6 +260,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -415,1441 +280,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-base-v0.1.0">
-
-#### [@stdlib/random/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-arcsine-v0.1.0">
-
-#### [@stdlib/random/base/arcsine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/arcsine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-bernoulli-v0.1.0">
-
-#### [@stdlib/random/base/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/bernoulli)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-beta-v0.1.0">
-
-#### [@stdlib/random/base/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/beta)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-betaprime-v0.1.0">
-
-#### [@stdlib/random/base/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/betaprime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-box-muller-v0.1.0">
-
-#### [@stdlib/random/base/box-muller](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/box-muller)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-cauchy-v0.1.0">
-
-#### [@stdlib/random/base/cauchy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/cauchy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-chi-v0.1.0">
-
-#### [@stdlib/random/base/chi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/chi)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-chisquare-v0.1.0">
-
-#### [@stdlib/random/base/chisquare](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/chisquare)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-cosine-v0.1.0">
-
-#### [@stdlib/random/base/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/cosine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-discrete-uniform-v0.1.0">
-
-#### [@stdlib/random/base/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/discrete-uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-erlang-v0.1.0">
-
-#### [@stdlib/random/base/erlang](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/erlang)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-exponential-v0.1.0">
-
-#### [@stdlib/random/base/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/exponential)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-f-v0.1.0">
-
-#### [@stdlib/random/base/f](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/f)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-frechet-v0.1.0">
-
-#### [@stdlib/random/base/frechet](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/frechet)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-gamma-v0.1.0">
-
-#### [@stdlib/random/base/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/gamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-geometric-v0.1.0">
-
-#### [@stdlib/random/base/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/geometric)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-gumbel-v0.1.0">
-
-#### [@stdlib/random/base/gumbel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/gumbel)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-hypergeometric-v0.1.0">
-
-#### [@stdlib/random/base/hypergeometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/hypergeometric)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-improved-ziggurat-v0.1.0">
-
-#### [@stdlib/random/base/improved-ziggurat](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/improved-ziggurat)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-invgamma-v0.1.0">
-
-#### [@stdlib/random/base/invgamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/invgamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-kumaraswamy-v0.1.0">
-
-#### [@stdlib/random/base/kumaraswamy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/kumaraswamy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-laplace-v0.1.0">
-
-#### [@stdlib/random/base/laplace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/laplace)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-levy-v0.1.0">
-
-#### [@stdlib/random/base/levy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/levy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-logistic-v0.1.0">
-
-#### [@stdlib/random/base/logistic](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/logistic)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-lognormal-v0.1.0">
-
-#### [@stdlib/random/base/lognormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/lognormal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-minstd-v0.1.0">
-
-#### [@stdlib/random/base/minstd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/minstd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-minstd-shuffle-v0.1.0">
-
-#### [@stdlib/random/base/minstd-shuffle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/minstd-shuffle)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-mt19937-v0.1.0">
-
-#### [@stdlib/random/base/mt19937](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/mt19937)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-negative--v0.1.0">
-
-#### [@stdlib/random/base/negative-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/negative-)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-normal-v0.1.0">
-
-#### [@stdlib/random/base/normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/normal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-pareto-type1-v0.1.0">
-
-#### [@stdlib/random/base/pareto-type1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/pareto-type1)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-poisson-v0.1.0">
-
-#### [@stdlib/random/base/poisson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/poisson)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-randi-v0.1.0">
-
-#### [@stdlib/random/base/randi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/randi)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-randn-v0.1.0">
-
-#### [@stdlib/random/base/randn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/randn)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-randu-v0.1.0">
-
-#### [@stdlib/random/base/randu](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/randu)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-rayleigh-v0.1.0">
-
-#### [@stdlib/random/base/rayleigh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/rayleigh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-reviver-v0.1.0">
-
-#### [@stdlib/random/base/reviver](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/reviver)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-t-v0.1.0">
-
-#### [@stdlib/random/base/t](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/t)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-triangular-v0.1.0">
-
-#### [@stdlib/random/base/triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/triangular)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-uniform-v0.1.0">
-
-#### [@stdlib/random/base/uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-base-weibull-v0.1.0">
-
-#### [@stdlib/random/base/weibull](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/base/weibull)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1862,19 +301,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1899,6 +325,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
