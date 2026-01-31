@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.2">
 
-## Unreleased (2025-04-25)
+## 0.2.2 (2026-01-31)
 
 <section class="bug-fixes">
 
@@ -27,9 +27,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#1963](https://github.com/stdlib-js/stdlib/issues/1963), [#6236](https://github.com/stdlib-js/stdlib/issues/6236)
+[#1963](https://github.com/stdlib-js/stdlib/issues/1963), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#7148](https://github.com/stdlib-js/stdlib/issues/7148), [#9072](https://github.com/stdlib-js/stdlib/issues/9072)
 
 </section>
 
@@ -41,6 +41,16 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`a06cfdd`](https://github.com/stdlib-js/stdlib/commit/a06cfdd5151299614d8c9e2a895d22a18955a289) - **chore:** fix C lint errors [(#9073)](https://github.com/stdlib-js/stdlib/pull/9073) _(by Geo Daoyu, Athan Reines)_
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
+-   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
+-   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`504a3f1`](https://github.com/stdlib-js/stdlib/commit/504a3f1d1db20b670b48efd1c292d7efbb433b58) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`45867ff`](https://github.com/stdlib-js/stdlib/commit/45867ff77862afa84e39f529328cd768d78444fe) - **chore:** fix EditorConfig lint errors [(#7179)](https://github.com/stdlib-js/stdlib/pull/7179) _(by Karan Vasudevamurthy, Athan Reines)_
 -   [`366925e`](https://github.com/stdlib-js/stdlib/commit/366925e14f08852288d1422041d5613c1aaddb28) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`56e6ec9`](https://github.com/stdlib-js/stdlib/commit/56e6ec9161a910d07dbc2af07164590c601f3351) - **docs:** fix parameter descriptions _(by Athan Reines)_
 -   [`a464a60`](https://github.com/stdlib-js/stdlib/commit/a464a60568b819f813aff054ba0c32476192d269) - **chore:** fix EditorConfig lint errors [(#6246)](https://github.com/stdlib-js/stdlib/pull/6246) _(by MANI, Athan Reines)_
@@ -92,11 +102,13 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Athan Reines
+-   Geo Daoyu
 -   Gururaj Gurram
+-   Karan Vasudevamurthy
 -   MANI
 -   Philipp Burckhardt
 
