@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-05-16)
 
 <section class="commits">
 
@@ -12,6 +12,13 @@
 
 <details>
 
+-   [`622d150`](https://github.com/stdlib-js/stdlib/commit/622d15033aa18a95fedfe4bfa1f66ac5799ef3f2) - **docs:** update related packages sections [(#12139)](https://github.com/stdlib-js/stdlib/pull/12139) _(by stdlib-bot)_
+-   [`795cdc0`](https://github.com/stdlib-js/stdlib/commit/795cdc007997c8a0db301e65e705a9237f5877f6) - **docs:** update related packages sections [(#12122)](https://github.com/stdlib-js/stdlib/pull/12122) _(by stdlib-bot)_
+-   [`508cffa`](https://github.com/stdlib-js/stdlib/commit/508cffaabd50a383412af306e36e4f2523cd7fa2) - **docs:** update related packages sections [(#12106)](https://github.com/stdlib-js/stdlib/pull/12106) _(by stdlib-bot)_
+-   [`3a9fd26`](https://github.com/stdlib-js/stdlib/commit/3a9fd26da1a7f28f6bacf152736affe0c601da8f) - **docs:** update related packages sections [(#12097)](https://github.com/stdlib-js/stdlib/pull/12097) _(by stdlib-bot)_
+-   [`8ef0632`](https://github.com/stdlib-js/stdlib/commit/8ef06328d08c865d85bbe52bf72783bc041870f0) - **docs:** update related packages sections [(#12089)](https://github.com/stdlib-js/stdlib/pull/12089) _(by stdlib-bot, Athan Reines)_
+-   [`3f792d9`](https://github.com/stdlib-js/stdlib/commit/3f792d977d6941de561c97e5462fc957db0997ed) - **bench:** refactor to use string interpolation in `random/base` [(#11423)](https://github.com/stdlib-js/stdlib/pull/11423) _(by Karan Anand)_
+-   [`4574e32`](https://github.com/stdlib-js/stdlib/commit/4574e3216991a30ec46d3b4a2d5e9d84e31da20e) - **bench:** add factory benchmarks to `random/base` PRNGs [(#11563)](https://github.com/stdlib-js/stdlib/pull/11563) _(by Philipp Burckhardt)_
 -   [`46881ca`](https://github.com/stdlib-js/stdlib/commit/46881ca28f2b7e02fafe36c3f436636015edac59) - **bench:** refactor to use string interpolation in`random/base/geometric` [(#10229)](https://github.com/stdlib-js/stdlib/pull/10229) _(by Shubham)_
 -   [`3a78025`](https://github.com/stdlib-js/stdlib/commit/3a7802537873ad795db7f3ecf9a78699f5488f16) - **bench:** refactor to use string interpolation in `random/base/frechet` [(#10231)](https://github.com/stdlib-js/stdlib/pull/10231) _(by Shubham)_
 -   [`8278221`](https://github.com/stdlib-js/stdlib/commit/827822124d84eb3bb20c27345217745db93cd214) - **bench:** refactor to use string interpolation in `random/base/exponential` [(#10230)](https://github.com/stdlib-js/stdlib/pull/10230) _(by Shubham)_
@@ -27,8 +34,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Karan Anand
+-   Philipp Burckhardt
 -   Shubham
 
 </section>
