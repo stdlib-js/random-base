@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-08-17)
 
 <section class="commits">
 
@@ -12,6 +12,13 @@
 
 <details>
 
+-   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
+-   [`4db26c0`](https://github.com/stdlib-js/stdlib/commit/4db26c0ab2b51a6279793c99f5eaceb8e452599a) - **docs:** fix inconsistent JSDoc annotations [(#13959)](https://github.com/stdlib-js/stdlib/pull/13959) _(by Philipp Burckhardt)_
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`cd16b93`](https://github.com/stdlib-js/stdlib/commit/cd16b9368fd2b6795d3b12bbfcb770abcef5ab15) - **docs:** update related packages sections [(#13766)](https://github.com/stdlib-js/stdlib/pull/13766) _(by stdlib-bot)_
+-   [`a103b47`](https://github.com/stdlib-js/stdlib/commit/a103b474ac08bc97bfdeac4674230abc02d17ae5) - **docs:** fix descriptions [(#13696)](https://github.com/stdlib-js/stdlib/pull/13696) _(by Philipp Burckhardt)_
+-   [`1d0ff56`](https://github.com/stdlib-js/stdlib/commit/1d0ff567adfa251660560b37e0019bd39e4f0ca5) - **docs:** update related packages sections [(#13476)](https://github.com/stdlib-js/stdlib/pull/13476) _(by stdlib-bot)_
+-   [`a12fce1`](https://github.com/stdlib-js/stdlib/commit/a12fce1cd6bd65c7aee8a2aee997200f71c83a62) - **docs:** update related packages sections [(#13276)](https://github.com/stdlib-js/stdlib/pull/13276) _(by stdlib-bot)_
 -   [`13176d8`](https://github.com/stdlib-js/stdlib/commit/13176d8fdf2d24a28da84027725a9a38de327dd3) - **docs:** update related packages sections [(#13118)](https://github.com/stdlib-js/stdlib/pull/13118) _(by stdlib-bot)_
 -   [`a0740ff`](https://github.com/stdlib-js/stdlib/commit/a0740ff717285ec77bca66efa3133061321184e3) - **docs:** update related packages sections [(#13007)](https://github.com/stdlib-js/stdlib/pull/13007) _(by stdlib-bot)_
 -   [`1955c06`](https://github.com/stdlib-js/stdlib/commit/1955c06eb7a27304cc92baf595545b877aea9edb) - **docs:** update related packages sections [(#12978)](https://github.com/stdlib-js/stdlib/pull/12978) _(by stdlib-bot, Athan Reines)_
