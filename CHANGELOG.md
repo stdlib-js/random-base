@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-09-04)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`59fcfed`](https://github.com/stdlib-js/stdlib/commit/59fcfed7316f0575738c6e72c62863754138e95d) - add missing method [(#14943)](https://github.com/stdlib-js/stdlib/pull/14943)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,8 @@
 
 <details>
 
+-   [`81433de`](https://github.com/stdlib-js/stdlib/commit/81433de4f15e8160345a1c21e7bacfafd456271e) - **docs:** update examples [(#14952)](https://github.com/stdlib-js/stdlib/pull/14952) _(by stdlib-bot)_
+-   [`59fcfed`](https://github.com/stdlib-js/stdlib/commit/59fcfed7316f0575738c6e72c62863754138e95d) - **fix:** add missing method [(#14943)](https://github.com/stdlib-js/stdlib/pull/14943) _(by Abdul Kaium)_
 -   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
 -   [`4db26c0`](https://github.com/stdlib-js/stdlib/commit/4db26c0ab2b51a6279793c99f5eaceb8e452599a) - **docs:** fix inconsistent JSDoc annotations [(#13959)](https://github.com/stdlib-js/stdlib/pull/13959) _(by Philipp Burckhardt)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
@@ -62,8 +74,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Abdul Kaium
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
